@@ -5,6 +5,7 @@ The lab documents the integration of Wazuh SIEM with Windows Server 2022 (Active
 - Group Policy and Policy changes
 - Account and group management
 - Core Windows security events
+
 The goal is to simulate a real SOC-style setup, validate log collection, map detections to MITRE Att&amp;ck and document finding using incident style reports.
 
 
