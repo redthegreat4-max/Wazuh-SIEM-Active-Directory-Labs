@@ -1,1 +1,27 @@
-test 
+# SIEM Deployment and Agent Management
+
+## Overview
+This lab demonstrates the real life scenario of analyzing log activity through Wazuh Virtual machine by using  wazuh agent in both Windows Server 2022 & Windows 11 Client.
+
+## HomeLab 1: Install Wazuh Agent in Windows Server 2022
+
+1. Download the Wazuh Agent 4.7.5 from the offical Wazuh website
+2. Install the agent on Windows Server 2022.
+3. Create a new agent by typing into Wazuh Manager VM
+- sudo /var/ossec/bin/manage_agents
+- then select A
+- type name which is WIN-F4 and the IP
+5. Create a generated agent key and then paste the the Windows Server agent and for the IP I put Wazuh Virtual Machine
+
+Verify:
+1. Open services.msc and it appeared running
+2. I went to Powershell admin and ensure that the Wazuh Agent was running
+- net start "Wazuh"
+- net stop "Wazuh"
+3. Over in Wazuh Manager I put the following command to see if my agent is there.
+- sudo /var/ossec/bin/agent_control -lc
+
+
+## HomeLab 2: Install Wazuh Agent in Windows 11 client
+
+1. 
