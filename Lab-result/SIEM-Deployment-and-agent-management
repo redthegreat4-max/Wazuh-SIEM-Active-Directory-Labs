@@ -20,6 +20,13 @@ Verify:
 - net stop "Wazuh"
 3. Over in Wazuh Manager I put the following command to see if my agent is there.
 - sudo /var/ossec/bin/agent_control -lc
+Which appears in the system
+
+# Test Activity- Domain Controller
+1. Test User was create in the Active Directory to validate account managemet logging
+Username: testU
+Password:
+The action generated provided by the screenshot event ID 4720 (User Account Created), which was detected by Wazuh.
 
 
 ## HomeLab 2: Install Wazuh Agent in Windows 11 client
@@ -33,6 +40,6 @@ Verify:
 5. Create a generated agent key and then paste the the Windows Server agent and for the IP I put Wazuh Virtual Machine
 
 Results:
-Agent successfully connected
+Agent successfully connected shown in Wazuh Dashboard
 Hostname detected as COMP07
 User Context: EJohn
