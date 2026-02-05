@@ -17,16 +17,16 @@ This lab shows the audit policy to be configured via Group Policy to ensure rele
 - Account Logon → Audit Kerberos Service Ticket Operations
 - Logon/Logoff → Audit Logon
 - Logon/Logoff → Audit Account Lockout
-Account Management
+# Account Management
 
 - Account Management → Audit User Account Management
 - Account Management → Audit Security Group Management
 
-Policy Changes
+# Policy Changes
 
 - Policy Change → Audit Audit Policy Change
 
-Directory Services Access
+# Directory Services Access
 - Policy Change → Audit Directory Service Changes
 
 These settings ensure visibility into authentication attempts, account lifecycle events, privilege changes, and AD object modifications.
