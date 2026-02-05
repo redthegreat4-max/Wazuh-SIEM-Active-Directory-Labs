@@ -1,1 +1,32 @@
-Test test 
+# Windows Security Auditng and GPO
+
+This lab shows the audit policy to be configured via Group Policy to ensure relevant security are generated forwarded to Wazuh.
+
+# Home Lab 1 Configure GPO to ensure relevant security
+
+1. First head to Default Domain Controllers Policy and right click edit
+- Computer configuration
+- policies
+- Windows Settings
+- Security Settings
+- Advanced Audit Policy Configuration
+
+# Enable Audit Categories
+1. Head towards Logon/Authentication
+- Account Logon → Audit Kerberos Authentication Service
+- Account Logon → Audit Kerberos Service Ticket Operations
+- Logon/Logoff → Audit Logon
+- Logon/Logoff → Audit Account Lockout
+Account Management
+
+- Account Management → Audit User Account Management
+- Account Management → Audit Security Group Management
+
+Policy Changes
+
+- Policy Change → Audit Audit Policy Change
+
+Directory Services Access
+- Policy Change → Audit Directory Service Changes
+
+These settings ensure visibility into authentication attempts, account lifecycle events, privilege changes, and AD object modifications.
