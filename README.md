@@ -16,5 +16,5 @@ The goal is to simulate a real SOC-style setup, validate log collection, map det
 - MITRE ATT&CK mapping
 - Incident style Documentation and remediation analysis
 
-Note: Detection was based on Wazuh SIEM alert mapping to Windows Security Event ID 4720.
-Supporting Windows logs were reviewed to validate administrative context.
+Detection Notes: Detection was based on Wazuh SIEM alert mapping to Windows Security Event ID 4720.(User Account Created)
+Supporting Windows logs were reviewed to validate administrative context and confirm expected versus suspicious activity.
