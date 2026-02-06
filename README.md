@@ -15,3 +15,6 @@ The goal is to simulate a real SOC-style setup, validate log collection, map det
 - Active Directory monitoring and log analysis
 - MITRE ATT&CK mapping
 - Incident style Documentation and remediation analysis
+
+Note: Detection was based on Wazuh SIEM alert mapping to Windows Security Event ID 4720.
+Supporting Windows logs were reviewed to validate administrative context.
