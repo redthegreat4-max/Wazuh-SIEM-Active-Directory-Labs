@@ -5,12 +5,12 @@ This lab demonstrates the real life scenario of analyzing log activity through W
 
 ## HomeLab 1: Install Wazuh Agent in Windows Server 2022
 
-1. Download Wazuh Agent 4.7.5 from the offical Wazuh website
+1. Download Wazuh Agent  from the offical Wazuh website
 2. Install the agent on Windows Server 2022.
 3. Create a new agent by typing into Wazuh Manager VM
 - sudo /var/ossec/bin/manage_agents
 - then select A
-- type name which is WIN-F4 and the IP
+- type name for the Domain and the IP
 5. Create a generated agent key and then paste the the Windows Server agent and for the IP I put Wazuh Virtual Machine
 
 Verify:
@@ -31,15 +31,15 @@ The action generated provided by the screenshot event ID 4720 (User Account Crea
 
 ## HomeLab 2: Install Wazuh Agent in Windows 11 client
 
-1.  Download Wazuh Agent 4.7.5 from the offical Wazuh website
+1.  Download Wazuh Agent  from the offical Wazuh website
 2. Install the Wazuh Agent on the Windows Client
 3.  Create a new agent by typing into Wazuh Manager VM
 - sudo /var/ossec/bin/manage_agents
 - then select A
-- type name which is WIN11-Lab which converts to Comp01 and the IP
+- type name which is WIN11-Lab which converts to Comp and the IP
 5. Create a generated agent key and then paste the the Windows Server agent and for the IP I put Wazuh Virtual Machine
 
 Results:
 Agent successfully connected shown in Wazuh Dashboard
-Hostname detected as COMP07
+Hostname detected as COMP
 User Context: EJohn
